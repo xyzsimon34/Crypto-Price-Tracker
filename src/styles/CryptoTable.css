@@ -1,0 +1,43 @@
+/* CryptoTable.css */
+
+.MuiTableContainer-root {
+    background-color: #1f1f1f; /* 深色背景 */
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4); /* 霧面陰影 */
+    color: #e0e0e0; /* 字體顏色 */
+  }
+  
+  .MuiTableHead-root {
+    background-color: #57a4cb; /* 表頭區的深色背景 */
+  }
+  
+  .MuiTableCell-head {
+    color: #4db5ff; /* 表頭文字的亮色 */
+    font-weight: bold;
+  }
+  
+  .MuiTableCell-root {
+    color: #e0e0e0;
+    padding: 16px;
+  }
+  
+  .MuiTableRow-root {
+    transition: background-color 0.3s;
+  }
+  
+  .MuiTableRow-root:hover {
+    background-color: #aba6a6; /* 滑過行的背景效果 */
+  }
+  
+  .MuiTableCell-body {
+    border-bottom: 1px solid #333333; /* 表格行之間的分隔線 */
+  }
+  
+  .price-positive {
+    color: #00ff00; /* 24h價格上漲的綠色 */
+  }
+  
+  .price-negative {
+    color: #ff4d4d; /* 24h價格下跌的紅色 */
+  }
+  

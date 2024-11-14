@@ -1,0 +1,29 @@
+/* SearchBar.css */
+
+.MuiTextField-root {
+    background-color: #545353; /* 較亮的深灰背景 */
+    border-radius: 8px;
+    box-shadow: 0px 2px 8px rgba(122, 122, 122, 0.2); /* 調整陰影 */
+  }
+  
+  .MuiInputBase-input {
+    color: #ffffff; /* 更亮的輸入文字顏色 */
+  }
+  
+  .MuiOutlinedInput-root {
+    &.Mui-focused .MuiOutlinedInput-notchedOutline {
+      border-color: #70c0ff; /* 更亮的邊框顏色 */
+    }
+    &:hover .MuiOutlinedInput-notchedOutline {
+      border-color: #70c0ff; /* 滑過時的亮色邊框 */
+    }
+  }
+  
+  .MuiInputLabel-root {
+    color: #b0b0b0; /* 淺灰色的標籤文字 */
+  }
+  
+  .MuiInputLabel-root.Mui-focused {
+    color: #70c0ff; /* 聚焦時的亮藍色標籤 */
+  }
+  
