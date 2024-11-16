@@ -34,10 +34,10 @@
   }
   
   .price-positive {
-    color: #00ff00; /* 24h價格上漲的綠色 */
-  }
+    color: #00ff00 !important;
+}
+.price-negative {
+    color: #ff4d4d !important;
+}
   
-  .price-negative {
-    color: #ff4d4d; /* 24h價格下跌的紅色 */
-  }
   
